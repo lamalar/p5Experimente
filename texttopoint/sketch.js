@@ -28,7 +28,7 @@ noFill();
       let distX = random (-50,50);
     let distY = random (-50,50);
 
-    line (p.x, p.y + distX, p.y + distY)
+    line (p.x, p.y, p.y + distX, p.y + distY)
     }
 
     
